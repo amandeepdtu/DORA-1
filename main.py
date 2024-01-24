@@ -6,7 +6,7 @@ from io import BytesIO
 # Replace these variables with your actual EC2 details
 ec2_host = "13.51.195.131"
 ec2_user = "ubuntu"
-ec2_private_key_path = r"C:\Users\Amandeep Singh\Downloads\DORA.pem"
+ec2_private_key_path = r"/home/ubuntu/DORA-1/DORA.pem"
 
 # Define the remote file paths on your EC2 instance
 remote_general_excel_file_path = "/home/ubuntu/DORA-1/GT_DORA_Control_Gap_Assessment_Template_v.02 (1).xlsx"
